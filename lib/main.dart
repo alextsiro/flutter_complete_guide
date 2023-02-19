@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var questions = [
+    final questions = [
       'What\'s your favorite color?',
       'what\'s your favorite animal?'
     ];
@@ -59,6 +59,9 @@ class MyApp extends StatelessWidget {
             ),
             ListTile(
               trailing: Text("bvhgfghf"),
+              onTap: () {
+                questions = [];
+              },
             )
           ],
         ),
