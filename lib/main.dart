@@ -59,9 +59,7 @@ class MyApp extends StatelessWidget {
             ),
             ListTile(
               trailing: Text("bvhgfghf"),
-              onTap: () {
-                questions = [];
-              },
+              onTap: () {},
             )
           ],
         ),
