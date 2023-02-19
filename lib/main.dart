@@ -16,7 +16,7 @@ void main() {
 //}
 
 class MyApp extends StatelessWidget {
-  int questionIndex = 0;
+  int questionIndex = 100;
 
   void answerQuestion() {
     questionIndex = questionIndex + 1;
